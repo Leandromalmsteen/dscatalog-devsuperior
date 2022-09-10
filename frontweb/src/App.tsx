@@ -1,8 +1,14 @@
-import "./assets/styles/custom.scss";
-import "./App.css";
+import NavBar from 'componentes/NavBar';
+import './assets/styles/custom.scss';
+import './App.css';
 
-function App() {
-  return <h1>Hello DSCatalog</h1>;
-}
+const App = () => {
+  return (
+    <>
+      <NavBar />
+      <h1>Hello DSCatalog</h1>
+    </>
+  );
+};
 
 export default App;
