@@ -5,6 +5,7 @@
 
 .nav-logo-text, .nav-logo-text:hover {
     color: #FFF;
+    text-decoration: none;
 }
 
 .main-menu {
@@ -16,6 +17,7 @@
 
 .main-menu a {
     color: rgba(255, 255, 255, 0.5);
+    text-decoration: none;
 }
 
 .main-menu a:hover {
